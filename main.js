@@ -1,6 +1,5 @@
 function userLan(){
 	var language = window.navigator.userLanguage || window.navigator.language;
-	language = "zh-CN";
 	var map_lang = {
 		"zh-TW": {
 			quote: ["08就是愛單機遊戲啦，2014年接觸Steam，2017開始瘋狂加遊戲庫，喜歡RPG，尤其是JRPG遊戲，歡迎各位30cm&E奶認親","如果需要聯繫我的，請至我的Steam加我好友，Steam很常在線上，有什麼問題歡迎Steam私訊我", "日常都用FB通信，不過盡量還是用Steam聯繫", "論壇私訊需要耗體力，所以發給我消息我會已讀不回(不是不理你)，非要使用私訊的話請先加給我需要耗費的體力，謝謝"],
