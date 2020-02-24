@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #4d4d4d;	
+	text-align: center;
+	overflow: hidden;
+}
+
+.white {
+	color: white;
+}
+
+.title {
+	font-size: 50px;
+	padding: 10px 10px;
+	margin: 50px;
+}
+
+.imgContainer {	
+	margin: 20px;
+	-webkit-animation: myFade 2s ; 
+	-moz-animation:    myFade 2s ; 
+	-o-animation:      myFade 2s ; 
+	animation:         myFade 2s ;
+	
+}
+
+.steam-img {
+	display: inline-block;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	margin: 0px 10px;
+	
+}
+
+.imgContainer img{
+    width:100%;
+    max-width:200px;
+	height: 100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#hidden_message p {
+	visibility:hidden;
+}
+
+#hidden_message:hover p{
+	visibility:visible;
+}
+
+#quote-0 {
+	-webkit-animation: l2r 0.5s ; 
+	-moz-animation:    l2r 0.5s ; 
+	-o-animation:      l2r 0.5s ; 
+	animation:         l2r 0.5s ;
+}
+
+#quote-0:before {
+	content: "“";
+}
+
+#quote-0:after {
+	content: "”";
+	
+}
+
+
+@keyframes myFade {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes l2r {
+	0% { margin-left: -100%;}
+	20% { margin-left: 0;}
+	50% { margin-left: 10%; }
+	70% { margin-left: -10%; }
+	100% { margin-left: 0;}
+}
+
+
